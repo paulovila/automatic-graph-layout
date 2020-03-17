@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "GraphLayout.sln",
+    "projects": [
+      "Test\\WpfSkiaTests\\WpfSkiaTests.csproj",
+      "Tools\\WpfGraphControl\\WpfGraphControl.csproj",
+      "tools\\SkiaGraph\\Msagl.SkiaGraph.csproj"
+    ]
+  }
+}

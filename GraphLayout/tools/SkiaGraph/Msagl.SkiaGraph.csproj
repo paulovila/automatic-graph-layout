@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutomaticGraphLayout.Drawing" Version="1.1.6" />
+    <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
+  </ItemGroup>
+
+</Project>
