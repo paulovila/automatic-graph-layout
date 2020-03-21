@@ -463,7 +463,7 @@ namespace Microsoft.Msagl.GraphViewerGdi {
                     case Shape.Ellipse:
                     case Shape.DrawFromGeometry:
 
-#if DEBUG
+#if TEST_MSAGL
                     case Shape.TestShape:
 #endif
                         pen.EndCap = LineCap.Square;
