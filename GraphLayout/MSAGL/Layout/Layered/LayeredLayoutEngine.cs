@@ -271,8 +271,8 @@ namespace Microsoft.Msagl.Layout.Layered {
 #endif
             EdgeRoutingSettings routingSettings = sugiyamaSettings.EdgeRoutingSettings;
             var mode = routingSettings.EdgeRoutingMode;
-            if (constrainedOrdering != null) //we switch to splines when there are constraints, since the ordering of virtual nodes sometimes does not do a good job
-                mode = EdgeRoutingMode.Spline;
+         //   if (constrainedOrdering != null) //we switch to splines when there are constraints, since the ordering of virtual nodes sometimes does not do a good job
+         //       mode = EdgeRoutingMode.Spline;
             switch (mode) {
                 case EdgeRoutingMode.SugiyamaSplines:
                     CalculateEdgeSplines();

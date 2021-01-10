@@ -3,5 +3,18 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wpfgraphcontrol="http://mlsagl"
         Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        
     <wpfgraphcontrol:AutomaticGraphLayoutControl x:Name="graphControl" />
+        <ComboBox VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="routingModeCombo"
+                  SelectedIndex="0"
+                  SelectionChanged="routingModeCombo_SelectionChanged">
+            <ComboBoxItem>Spline</ComboBoxItem>
+            <ComboBoxItem>SplineBundling</ComboBoxItem>
+            <ComboBoxItem>StraightLine</ComboBoxItem>
+            <ComboBoxItem>SugiyamaSplines</ComboBoxItem>
+            <ComboBoxItem>Rectilinear</ComboBoxItem>
+            <ComboBoxItem>RectilinearToCenter</ComboBoxItem>
+        </ComboBox>
+    </Grid>
 </Window>
